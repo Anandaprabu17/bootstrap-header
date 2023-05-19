@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.navbar{
+	background-color:#37517e !important;
+}
+ul>li{
+	list-style:none;
+}
+.down{
+	display:none;
+}
+.nav-item:hover .down{
+	display:block !important;
+}
+.dropdown-menu li{
+	position:relative;
+}
+.submenu{
+	position:absolute;
+	display:none;
+	left:100%;
+
+}
+.deep:hover .submenu{
+	display:block !important;
+}
